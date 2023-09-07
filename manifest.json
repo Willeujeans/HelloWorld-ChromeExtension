@@ -1,6 +1,6 @@
 {
-    "manifest_version": 2,
-    "name": "Hellow World",
+    "manifest_version": 3,
+    "name": "Hello World",
     "version": "1.0",
     "description":"A hello world extension",
     "icons":{
@@ -8,7 +8,7 @@
         "48": "icon48.png",
         "16": "icon16.png"
     },
-    "browser_action":{
+    "action":{
         "default_icon":"icon16.png",
         "default_popup":"popup.html"
     }
